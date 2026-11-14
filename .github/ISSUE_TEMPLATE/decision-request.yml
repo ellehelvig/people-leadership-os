@@ -1,0 +1,56 @@
+name: Decision request
+description: Request a decision with a recommendation and clear deadline.
+title: "[Decision]: "
+labels:
+  - decision-request
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form when a named decision owner needs to choose a direction.
+        Do not include sensitive employee information.
+  - type: textarea
+    id: decision
+    attributes:
+      label: Decision needed
+      description: State the decision in one clear question.
+      placeholder: What needs to be decided?
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline
+      description: Give the date or explain what event makes the decision time-sensitive.
+      placeholder: Date or triggering event
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: Options considered
+      description: Describe the practical options and their main trade-offs.
+    validations:
+      required: true
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Recommendation
+      description: State the recommended option and why.
+    validations:
+      required: true
+  - type: textarea
+    id: consulted
+    attributes:
+      label: Who must be consulted
+      description: Name roles or teams, and note whether they have been consulted.
+      placeholder: Role or team, status, and open question
+    validations:
+      required: true
+  - type: textarea
+    id: cost-of-delay
+    attributes:
+      label: Cost of delay
+      description: Explain what becomes harder, riskier, or more expensive if the decision waits.
+    validations:
+      required: true

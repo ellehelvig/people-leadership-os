@@ -1,0 +1,61 @@
+name: Emerging signal
+description: Record an emerging risk or opportunity that may need attention.
+title: "[Signal]: "
+labels:
+  - signal
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to record an emerging risk or opportunity.
+        Separate what you observed from what you think it may mean.
+        Do not include sensitive employee information.
+  - type: dropdown
+    id: signal-type
+    attributes:
+      label: Type
+      description: What kind of signal are you recording?
+      options:
+        - Risk
+        - Opportunity
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: Where did this signal come from? Include a source issue or document when available.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: State what was observed. Mark estimates and assumptions clearly.
+    validations:
+      required: true
+  - type: dropdown
+    id: confidence
+    attributes:
+      label: Confidence
+      description: How confident are you that the observation is accurate?
+      options:
+        - Low
+        - Medium
+        - High
+    validations:
+      required: true
+  - type: textarea
+    id: who-it-affects
+    attributes:
+      label: Who it affects
+      description: Identify affected roles, teams, or groups. Avoid personal details.
+    validations:
+      required: true
+  - type: textarea
+    id: next-step
+    attributes:
+      label: Suggested next step
+      description: Say what, if anything, should happen next and who could own it.
+    validations:
+      required: false
