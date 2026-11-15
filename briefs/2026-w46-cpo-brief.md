@@ -1,39 +1,46 @@
 # CPO weekly brief: 2026-W46
 
-**Fictional sample for Harbor.** The week label, issue identifiers, and all dates or quantities are illustrative. This brief is based only on the fictional sample issues in `data/sample-issues.md`.
-
 ## Decisions needed this week
 
-- **Set the boundary for AI-assisted People work.** Issue #101 asks whether Harbor should allow limited drafting with human review while tool and information rules are confirmed. The issue owner recommends holding use to non-sensitive drafts and keeping employee decisions out of scope. [#101]
-- **Confirm the approach to the performance cycle.** Issue #104 asks whether Harbor should use the parent cycle as written or add Harbor-specific instructions. The issue recommends adapting the cycle, but the parent requirements still need confirmation. [#104]
+- Align the performance-cycle approach. Issue #4 asks whether Harbor should use Meridian Group's performance management cycle as written or add Harbor-specific instructions, and the recommendation is to adapt the parent approach only after confirming which elements are required and which can vary. [#4]
+- Set the boundary for AI-assisted People work. Issue #1 asks whether Harbor should allow bounded drafting with human review for non-sensitive materials while tool and information boundaries are still being confirmed. [#1]
+- Decide whether a recurring agenda slot is needed for cross-functional People asks. Issue #10 asks whether the team should reserve a standing slot and notes that some asks may not receive a clear decision owner if the issue flow is not reviewed first. [#10]
+- Decide whether Harbor should run a new listening activity. Issue #8 recommends deferring until the question, owner, and intended use of the input are clear. [#8]
 
 ## Signal versus noise
 
-**Signals to act on**
+### Signals to act on
 
-- People Operations reports that managers are asking when performance-cycle guidance will arrive. This supports a clear timing update, but does not by itself establish that the cycle is off track. [#102]
-- The People team has no confirmed owner for questions about which AI tools are suitable for People work. This is an ownership gap, not evidence that an unapproved tool has been used. [#105]
-- A talent lead reports that hiring priorities may change. The issue does not yet include a confirmed revised plan, so treat this as a planning signal rather than a settled change. [#107]
+- Managers are asking when performance-cycle guidance will arrive, which indicates a need for a timing update after the cycle approach is confirmed. [#2]
+- People team members report that similar requests are arriving through different channels, but the issue says to gather examples before proposing an intake change, so this should be treated as a low-confidence signal rather than a confirmed process problem. [#3]
+- There is no named owner for AI tool questions, which is an ownership gap and not evidence that an unapproved tool has been used. [#5]
+- A talent lead reports a possible change in hiring priorities, but no revised plan is attached, so treat this as a planning signal rather than a settled change. [#7]
+- The reward-cycle question points to an information gap, not a confirmed schedule conflict. [#9]
+- The access review is blocked pending partner input; the issue says the review cannot move forward until the partner provides the requested information. [#11]
+- A concern about manager workload is low-confidence and asks for examples before changing the guidance plan. [#12]
 
-**Noise to avoid elevating**
+### Noise to avoid elevating
 
-- The sample issues contain a concern about manager workload, but no supporting evidence is attached yet. Ask for examples before changing the plan. [#112]
+- The manager workload concern should not be treated as a confirmed trend without examples. [#12]
 
 ## Risks moving
 
-- The performance-cycle question could delay manager guidance if the parent requirements and Harbor's local instructions are not resolved together. [#102] [#104]
-- AI guidance could remain unclear while no owner is assigned to coordinate tool questions. Assign an owner before expanding any use. [#101] [#105]
-- Access review work is waiting on a partner response. The issue owner should confirm the next step and expected response date. [#111]
+- If the parent requirements and Harbor-specific instructions are not confirmed together, manager guidance may be delayed or may not explain local differences. [#4]
+- If AI guidance remains unclear and no owner is assigned for tool questions, teams may continue to operate under different assumptions about what is allowed. [#1] [#5]
+- If the access review partner does not provide the requested information, the review cannot move forward. [#11]
+- If cross-functional People asks are not assigned a clear decision owner, some asks may not receive one. [#10]
 
 ## Cross-functional asks
 
-- Ask the Meridian Group program owner to confirm which parts of the performance cycle are required and which can be adapted for Harbor. [#104]
-- Ask Harbor's relevant technology and control partners to review the proposed AI boundaries and name an owner for ongoing questions. [#101] [#105]
-- Ask the access review partner to provide the information needed to move the open review forward. [#111]
+- Ask the Meridian Group program owner to confirm which parts of the performance cycle are required and which can vary for Harbor. [#4]
+- Ask Harbor's relevant technology and control partners to confirm the boundaries for AI-assisted People work and to name an owner for ongoing questions. [#1] [#5]
+- Ask the access review partner to confirm the information needed and an expected response date. [#11]
+- Ask the relevant program owner to confirm the reward-cycle schedule before planning work depends on it. [#9]
 
 ## What I would cut
 
-- Defer a separate manager training package until the cycle approach and manager guidance are settled. The training request does not yet show what content cannot be covered in existing guidance. [#106]
-- Do not add a new listening activity this week. The request needs a clear owner and a decision about what question it is intended to answer. [#108]
+- Defer a separate manager training package until the cycle approach and manager guidance are settled. [#6]
+- Do not launch a new listening activity this week until the question, owner, and intended use of the input are clear. [#8]
+- Do not treat the possible change in hiring priorities as a settled plan until a revised plan is confirmed. [#7]
 
-**Owner gaps to resolve:** Issue #105 does not name an owner for AI tool questions. Issue #108 does not name an owner for the proposed listening activity. [#105] [#108]
+Owner gaps to resolve: Issues #5 and #8 do not have an owner listed in the Owner field ("_No response_"). The draft requires human review before it is shared.
