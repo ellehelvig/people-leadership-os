@@ -1,61 +1,74 @@
-# Decision record: AI-enabled People operating model
+# Decision record 0001: How Harbor's People team uses AI
 
 **Status:** Proposed  
 **Decision owner:** Harbor CPO  
 **Prepared by:** Chief of Staff to the CPO  
-**Review date:** 2026-12-18  
-**Context date:** 2026-11-14
+**Source issues:** #1, #5  
+**Review date:** 2026-12-18
+
+## What the CPO needs to decide
+
+1. Approve three zones for AI in People work, set out below.
+2. Name one owner for AI questions in the People team. Issue #5 shows there is none.
+3. Agree that existing AI use is registered without penalty for two weeks, then the zones apply.
 
 ## Context
 
-Harbor's People team is considering where AI assistance could help with routine work. Potential uses include drafting general employee communications, summarizing non-sensitive project notes, and creating first drafts of role descriptions.
-
-The team has not confirmed which tools are approved for which types of information, who reviews outputs, or how employees can raise concerns. No employee data should be entered into an AI tool as part of this proposal. Any use involving employee information needs a separate review by the relevant control owners before it is considered.
-
-The decision is how Harbor should organize exploration and guidance while those questions are resolved.
+People team members are already trying AI for drafting and summarizing. No one has confirmed which tools are approved for which information, and no one owns the questions. The risk today is not that the team moves too slowly. It is that nobody can say what is already happening.
 
 ## Options considered
 
-### Option A: Let each People team choose its own tools and uses
+**A. Let each team choose its own tools and uses.** Fast, and it matches what is happening now. No one can answer for the result.
 
-This gives teams flexibility and may help them find useful applications quickly. It also risks inconsistent guidance, unclear accountability, and use of tools or information that have not been reviewed.
+**B. Pause everything until a full policy exists.** Clean, and it will not hold. People keep using the tools and stop mentioning it.
 
-### Option B: Pause all exploration until a complete policy is available
+**C. Set three zones, register every use, and review at 30, 60, and 90 days.** Slower than A. More honest than B.
 
-This reduces the chance of uneven practice while the rules are unclear. It also delays low-risk learning and provides little practical input for shaping future guidance.
+## Recommendation: Option C
 
-### Option C: Allow bounded exploration with a shared review path
+Sort every People use of AI into one of three zones.
 
-Harbor defines narrow, non-sensitive use cases for exploration. Each use case has an owner, a human reviewer, and a record of what is being tested. The team does not use sensitive employee information and does not rely on AI output as a final People decision.
+| Zone | What belongs here | Rule |
+|---|---|---|
+| **Human-led** | Any decision about an individual: hiring, pay, performance, discipline, exit | AI output is never the basis for the decision. No employee data goes into a general AI tool. |
+| **Human with AI** | Drafting communications, summarizing non-sensitive notes, first drafts of role descriptions | A named person reviews every output before it is used. |
+| **AI-run** | Repeatable, rule-bound work that touches no individual's record, such as answering questions from the published handbook | Runs inside set boundaries. A named owner checks a sample on a schedule. |
 
-## Trade-offs
+Pay and payroll calculations stay out of all three zones. They need the same answer every time, and a generative tool does not give one.
 
-Option A favors speed but makes it harder to know what is happening or who is accountable.
+Before any use starts, its owner answers three questions in a registered issue:
 
-Option B favors caution but may delay useful learning about routine work.
+1. Who is accountable when it gets something wrong?
+2. How will we know it is still working?
+3. Could we explain the output to the employee it affects?
 
-Option C adds a review step and limits the scope. It allows controlled learning while leaving open the question of broader employee use.
+If any answer is "we don't know," the use waits.
 
-## Recommendation
+## Trade-offs I am accepting
 
-Choose Option C.
+- **Speed.** Teams that are already experimenting will feel slowed down. The two-week registration window is there so they come forward.
+- **Coverage.** The zones do not answer every case. Edge cases come to the owner named under decision 2, and the answers are recorded so the next team does not ask again.
+- **Parent alignment.** This moves before Meridian Group's policy is confirmed for People use cases. The data rules follow the parent now. The rest is revisited once the parent confirms (see [align-or-diverge](../docs/align-or-diverge.md)).
 
-For the initial review period, allow only non-sensitive drafting or summarization that a named person checks before use. Do not use AI output to make or recommend a decision about an individual employee. Do not enter sensitive employee information. Record each proposed use case with its owner, reviewer, information involved, and expected benefit.
+## Review
 
-Before expanding beyond these boundaries, the CPO should obtain confirmation from the relevant Harbor and Meridian Group control owners about tools, information types, and employee-facing guidance. The Chief of Staff maintains the decision record and brings unresolved questions to the CPO.
+At each checkpoint the owner brings one page and one question.
 
-## What would change the recommendation
+| Checkpoint | Question |
+|---|---|
+| 30 days | Do we know what people are doing with these tools? |
+| 60 days | What is working well enough to deserve more attention, and what is not? |
+| 90 days | For each registered use: embed it, redesign it, or retire it? |
 
-- Confirmation that the available tools and controls support a broader set of use cases.
-- Evidence that the bounded approach creates more work than it saves or produces unreliable drafts.
-- A change in the parent company's direction that makes a shared approach necessary.
-- A specific concern from employees or control owners that makes even the narrow uses inappropriate.
+## What would change this recommendation
 
-## Owner and review
+- The parent confirms its policy covers People use cases. Then adopt it and keep the zones as Harbor's examples.
+- Registered uses show reviewers correcting most outputs. Then the Human with AI zone is costing more than it saves and should shrink.
+- An employee or control owner raises a concern about a specific use. That use stops until it is resolved.
+- Few uses are registered after two weeks. Then the problem is trust, not policy, and the CPO needs to address it directly.
+
+## Owners
 
 **Decision owner:** Harbor CPO  
 **Operating owner:** People Operations lead  
-**Record owner:** Chief of Staff to the CPO  
-**Review date:** 2026-12-18
-
-At review, the owners should summarize what was tried, what information was used, what required correction, and whether the boundaries should change.
+**Record owner:** Chief of Staff to the CPO

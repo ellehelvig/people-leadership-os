@@ -1,59 +1,79 @@
 # Align or diverge
 
-This framework helps Harbor decide whether to adopt a Meridian Group People program, adapt it for Harbor, or keep a separate approach.
+When should Harbor adopt a Meridian Group People program, and when should it keep its own?
 
-## Five tests
+## The position
 
-Score each test from 1 to 5, where 1 means poor fit and 5 means strong fit. Use evidence where available. If the team has no evidence, record that uncertainty rather than treating an assumption as fact.
+Align by default. Harbor carries the burden of proof when it wants to differ, and every difference gets an owner, a cost, and a review date. A divergence with no review date is not a decision. It is drift.
 
-1. **Strategic fit:** Does the program support Harbor's business direction and the work of a developer-tools subsidiary?
-2. **Employee and workflow fit:** Can Harbor employees and managers use it without unnecessary friction or confusing exceptions?
-3. **Risk and control fit:** Can the program operate within the controls and safeguards Harbor and Meridian Group require?
-4. **Operating capacity:** Can the teams responsible for the program support it, explain it, and maintain it?
-5. **Learning and reversibility:** Can Harbor learn whether the approach works and change course if it does not?
+The reverse also holds. Harbor is small enough to try things Meridian Group cannot. When Harbor's approach works, the right outcome is that the parent adopts it.
 
-## Scoring guide
+## Step 1: Check the non-negotiables
 
-Add the five scores for a total from 5 to 25.
+Some things are not scored. Harbor aligns, and the conversation is about how.
 
-- **20 to 25:** Adopt the parent approach if no single test reveals a serious concern. Record any local operating instructions.
-- **13 to 19:** Adapt the parent approach or run a limited, reversible trial. Write down what needs to be learned and when the choice will be reviewed.
-- **5 to 12:** Keep a separate Harbor approach for now, or defer the choice if key facts are missing. Explain the gap and identify what evidence could change the decision.
+- Anything a regulator or auditor inspects across the group.
+- Pay and payroll calculations, where almost right is wrong.
+- How employee data is stored, accessed, and shared.
+- Anything employees compare directly across the two companies, such as leave and benefits eligibility.
 
-The total is a prompt for discussion, not an automatic decision. A serious concern in risk and control fit can outweigh a high total. The CPO should record the reason for the final choice and who owns the review.
+If the program falls here, stop. Record the alignment and any local instructions.
+
+## Step 2: Score five tests
+
+Score each from 1 (poor fit) to 5 (strong fit). Write the evidence next to the score. If there is no evidence, say so.
+
+1. **Strategic fit:** Does the parent program support the work of a developer-tools company?
+2. **Daily-work fit:** Can Harbor's managers and engineers use it without workarounds?
+3. **Risk and control fit:** Can it run inside the controls both companies require?
+4. **Cost to carry:** If Harbor diverges, who maintains the difference, and what does that cost each year?
+5. **Reversibility:** Can Harbor change course within one cycle if the choice is wrong?
+
+## Step 3: Read the result
+
+| Total | Outcome |
+|---|---|
+| 20 to 25 | **Adopt** the parent program. |
+| 13 to 19 | **Adapt** it. Name what differs, who owns the difference, and when it is reviewed. |
+| 5 to 12 | **Keep separate**, with a date to revisit. |
+
+Two rules override the total:
+
+- A 1 or 2 on risk and control fit is a stop, whatever the total. Fix the control gap first.
+- If Harbor's approach scores 4 or higher on daily-work fit and reversibility, propose it to the parent as a pilot. That outcome is **Lead**.
 
 ## Worked example: performance management cycle
 
-**Question:** Should Harbor use Meridian Group's performance management cycle?
+**Question:** Should Harbor use Meridian Group's performance cycle?
 
-**Assessment:**
+Not a non-negotiable, so it is scored.
 
-| Test | Score | Reason |
+| Test | Score | Evidence |
 |---|---:|---|
-| Strategic fit | 4 | A shared cycle could make cross-company planning easier. |
-| Employee and workflow fit | 2 | Harbor's teams may have different planning needs and manager workflows. |
-| Risk and control fit | 4 | The example assumes the parent approach can meet Harbor's stated controls, subject to confirmation. |
-| Operating capacity | 3 | The People team may need time to explain and support local differences. |
-| Learning and reversibility | 4 | A review after a cycle could show whether the approach works. |
+| Strategic fit | 4 | Shared timing makes group-wide talent planning easier. |
+| Daily-work fit | 2 | Harbor's engineering teams plan in shorter cycles than the parent calendar assumes. |
+| Risk and control fit | 4 | No control gap identified. Parent requirements still to be confirmed (issue #4). |
+| Cost to carry | 3 | A Harbor variant needs its own manager guidance each cycle. |
+| Reversibility | 4 | One cycle is enough to see whether it works. |
 
-**Total:** 17 out of 25.
+**Total:** 17 out of 25. **Outcome: Adapt.**
 
-**Recommendation:** Adapt the parent cycle rather than copy it unchanged. Keep shared planning milestones where they are useful, document Harbor-specific instructions, and review the experience after the cycle. This recommendation depends on confirming the parent cycle's actual requirements and Harbor's manager capacity.
+Keep the parent's calendar and rating outputs, since those feed group planning. Change the check-in rhythm inside the cycle to match how Harbor's teams plan. People Operations owns the difference. Review after one cycle.
 
 ## Worked example: AI tool policy for employees
 
-**Question:** Should Harbor adopt Meridian Group's AI tool policy for employees?
+**Question:** Should Harbor adopt Meridian Group's AI tool policy?
 
-**Assessment:**
+Partly a non-negotiable. The rules on employee data are not scored. Harbor aligns. The rest is scored.
 
-| Test | Score | Reason |
+| Test | Score | Evidence |
 |---|---:|---|
-| Strategic fit | 4 | A clear shared baseline could reduce conflicting guidance. |
-| Employee and workflow fit | 3 | The policy may need examples for developer-tools work and People workflows. |
-| Risk and control fit | 2 | The example assumes Harbor has not yet confirmed that the parent policy covers the proposed People use cases. |
-| Operating capacity | 3 | People, security, and technology partners would need to explain the rules and answer questions. |
-| Learning and reversibility | 4 | Harbor could review use cases and update guidance as it learns. |
+| Strategic fit | 4 | One baseline avoids conflicting guidance for people who work across both companies. |
+| Daily-work fit | 3 | A policy written for a general workforce needs examples for engineering and People work. |
+| Risk and control fit | 2 | No one has confirmed the parent policy covers People use cases (issues #1 and #5). |
+| Cost to carry | 3 | Harbor-specific examples need an owner to keep them current. |
+| Reversibility | 4 | Guidance can be updated as use cases are reviewed. |
 
-**Total:** 16 out of 25.
+**Total:** 16 out of 25. **Outcome: Stop, then Adapt.**
 
-**Recommendation:** Do not treat the parent policy as sufficient until the relevant control owners confirm how it applies to People work. Use the parent policy as the starting point, ask for a decision on any uncovered use cases, and keep employee guidance narrow while that question is open. Do not enter sensitive employee information into an AI tool under this example.
+The total says adapt, but the 2 on risk and control fit overrides it. Nothing expands until a named owner confirms what the parent policy covers. After that, adopt the policy and add Harbor examples.

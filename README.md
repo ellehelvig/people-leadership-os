@@ -28,7 +28,7 @@ flowchart LR
 | Path | What it is |
 |---|---|
 | [Issues](../../issues) | Twelve open issues: five decision requests and seven signals |
-| [briefs/2026-w46-cpo-brief.md](briefs/2026-w46-cpo-brief.md) | The weekly brief Copilot drafted from those issues |
+| [briefs/2026-w46-cpo-brief.md](briefs/2026-w46-cpo-brief.md) | The weekly brief: Copilot's draft from those issues, edited down to one page |
 | [docs/operating-rhythm.md](docs/operating-rhythm.md) | Weekly, monthly, and quarterly cadence, with who decides what |
 | [docs/align-or-diverge.md](docs/align-or-diverge.md) | Five tests for when a subsidiary adopts the parent company's People programs |
 | [decisions/0001-ai-enabled-people-operating-model.md](decisions/0001-ai-enabled-people-operating-model.md) | A sample decision record |
@@ -42,8 +42,8 @@ flowchart LR
 ## How this was built
 
 - **GitHub Copilot** drafted the first version of each document and both issue forms, and wrote the weekly brief from the open issues in this repository.
-- **Claude** helped shape the concept, ran checks on the files, corrected a wrong issue reference in Copilot's first brief, and created the issues and board from Copilot's sample data.
-- **Elle Helvig** chose the problem, directed the work, and approves what is published here.
+- **Claude** helped shape the concept, ran checks on the files, created the issues and board from Copilot's sample data, and drafted the edits to the brief, the align-or-diverge framework, and the decision record.
+- **Elle Helvig** chose the problem, directed the work, supplied the reference reading behind the framework, and approves what is published here.
 
 ## Author
 
