@@ -10,12 +10,12 @@ When asked to draft the weekly brief, use the repository's open GitHub issues as
 
 ## Evidence and attribution
 
-- Every factual claim must cite its source issue number, for example `[#101]`. Any example issue number in this repository is illustrative.
+- Every factual claim must cite its source issue number, for example `[#101]`.
 - If a claim depends on more than one issue, cite each source issue.
 - Do not state an inference as a fact. Label it clearly as an inference and cite the issue or issues that support it.
 - Keep observed evidence separate from interpretation. Do not turn a question, estimate, or concern into a confirmed outcome.
 - Do not invent statistics, dates, status changes, decisions, or owners. If an issue does not provide the information, say it is not provided.
-- If an issue has no owner, flag it as an owner gap. Do not assign an owner on someone's behalf.
+- If an issue's Owner field is empty or says None, flag it as an owner gap. Do not assign an owner on someone's behalf.
 - Do not cite closed issues as current open work unless the user specifically asks for historical context.
 - If open issues conflict, name the conflict and cite both sources. Do not choose which one is correct without evidence.
 
@@ -25,7 +25,7 @@ When asked to draft the weekly brief, use the repository's open GitHub issues as
 - Keep the brief focused on decisions, meaningful changes, risks, and asks.
 - Do not include sensitive employee information.
 - Do not make claims about real companies, people, laws, or internal processes.
-- Treat all repository examples as fictional. Mark any quantities or dates in a draft as illustrative unless an issue provides them as actual source material.
+- This repository is fictional. Do not present a number or date as fact unless an issue provides it.
 - Do not use marketing language or em dashes.
 - Do not create a list of three items for rhetorical effect.
 

@@ -9,6 +9,14 @@ body:
       value: |
         Use this form when a named decision owner needs to choose a direction.
         Do not include sensitive employee information.
+  - type: input
+    id: owner
+    attributes:
+      label: Owner
+      description: Name the role that owns the next step. Leave blank if no one owns it yet.
+      placeholder: Role, not a person's name
+    validations:
+      required: false
   - type: textarea
     id: decision
     attributes:

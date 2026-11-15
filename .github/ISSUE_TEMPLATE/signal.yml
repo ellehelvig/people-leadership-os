@@ -10,6 +10,14 @@ body:
         Use this form to record an emerging risk or opportunity.
         Separate what you observed from what you think it may mean.
         Do not include sensitive employee information.
+  - type: input
+    id: owner
+    attributes:
+      label: Owner
+      description: Name the role that owns the next step. Leave blank if no one owns it yet.
+      placeholder: Role, not a person's name
+    validations:
+      required: false
   - type: dropdown
     id: signal-type
     attributes:

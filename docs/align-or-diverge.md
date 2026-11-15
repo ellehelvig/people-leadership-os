@@ -1,6 +1,6 @@
 # Align or diverge
 
-This framework helps Harbor decide whether to adopt a Meridian Group People program, adapt it for Harbor, or keep a separate approach. It is a fictional decision aid. Scores and thresholds below are illustrative and are not evidence about either organization.
+This framework helps Harbor decide whether to adopt a Meridian Group People program, adapt it for Harbor, or keep a separate approach.
 
 ## Five tests
 
@@ -14,11 +14,11 @@ Score each test from 1 to 5, where 1 means poor fit and 5 means strong fit. Use 
 
 ## Scoring guide
 
-Add the five scores for an illustrative total from 5 to 25.
+Add the five scores for a total from 5 to 25.
 
-- **20 to 25, illustrative:** Adopt the parent approach if no single test reveals a serious concern. Record any local operating instructions.
-- **13 to 19, illustrative:** Adapt the parent approach or run a limited, reversible trial. Write down what needs to be learned and when the choice will be reviewed.
-- **5 to 12, illustrative:** Keep a separate Harbor approach for now, or defer the choice if key facts are missing. Explain the gap and identify what evidence could change the decision.
+- **20 to 25:** Adopt the parent approach if no single test reveals a serious concern. Record any local operating instructions.
+- **13 to 19:** Adapt the parent approach or run a limited, reversible trial. Write down what needs to be learned and when the choice will be reviewed.
+- **5 to 12:** Keep a separate Harbor approach for now, or defer the choice if key facts are missing. Explain the gap and identify what evidence could change the decision.
 
 The total is a prompt for discussion, not an automatic decision. A serious concern in risk and control fit can outweigh a high total. The CPO should record the reason for the final choice and who owns the review.
 
@@ -26,7 +26,7 @@ The total is a prompt for discussion, not an automatic decision. A serious conce
 
 **Question:** Should Harbor use Meridian Group's performance management cycle?
 
-**Illustrative assessment:**
+**Assessment:**
 
 | Test | Score | Reason |
 |---|---:|---|
@@ -36,7 +36,7 @@ The total is a prompt for discussion, not an automatic decision. A serious conce
 | Operating capacity | 3 | The People team may need time to explain and support local differences. |
 | Learning and reversibility | 4 | A review after a cycle could show whether the approach works. |
 
-**Illustrative total:** 17 out of 25.
+**Total:** 17 out of 25.
 
 **Recommendation:** Adapt the parent cycle rather than copy it unchanged. Keep shared planning milestones where they are useful, document Harbor-specific instructions, and review the experience after the cycle. This recommendation depends on confirming the parent cycle's actual requirements and Harbor's manager capacity.
 
@@ -44,7 +44,7 @@ The total is a prompt for discussion, not an automatic decision. A serious conce
 
 **Question:** Should Harbor adopt Meridian Group's AI tool policy for employees?
 
-**Illustrative assessment:**
+**Assessment:**
 
 | Test | Score | Reason |
 |---|---:|---|
@@ -54,8 +54,6 @@ The total is a prompt for discussion, not an automatic decision. A serious conce
 | Operating capacity | 3 | People, security, and technology partners would need to explain the rules and answer questions. |
 | Learning and reversibility | 4 | Harbor could review use cases and update guidance as it learns. |
 
-**Illustrative total:** 16 out of 25.
+**Total:** 16 out of 25.
 
 **Recommendation:** Do not treat the parent policy as sufficient until the relevant control owners confirm how it applies to People work. Use the parent policy as the starting point, ask for a decision on any uncovered use cases, and keep employee guidance narrow while that question is open. Do not enter sensitive employee information into an AI tool under this example.
-
-All scores and examples are fictional and illustrative. They do not describe an actual Meridian Group policy or Harbor decision.

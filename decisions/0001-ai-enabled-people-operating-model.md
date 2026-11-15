@@ -3,10 +3,8 @@
 **Status:** Proposed  
 **Decision owner:** Harbor CPO  
 **Prepared by:** Chief of Staff to the CPO  
-**Review date:** 2026-12-18, illustrative  
-**Context date:** 2026-11-14, illustrative
-
-This is a fictional decision record. It does not describe an actual organization, policy, or decision.
+**Review date:** 2026-12-18  
+**Context date:** 2026-11-14
 
 ## Context
 
@@ -42,7 +40,7 @@ Option C adds a review step and limits the scope. It allows controlled learning 
 
 Choose Option C.
 
-For the initial illustrative review period, allow only non-sensitive drafting or summarization that a named person checks before use. Do not use AI output to make or recommend a decision about an individual employee. Do not enter sensitive employee information. Record each proposed use case with its owner, reviewer, information involved, and expected benefit.
+For the initial review period, allow only non-sensitive drafting or summarization that a named person checks before use. Do not use AI output to make or recommend a decision about an individual employee. Do not enter sensitive employee information. Record each proposed use case with its owner, reviewer, information involved, and expected benefit.
 
 Before expanding beyond these boundaries, the CPO should obtain confirmation from the relevant Harbor and Meridian Group control owners about tools, information types, and employee-facing guidance. The Chief of Staff maintains the decision record and brings unresolved questions to the CPO.
 
@@ -58,6 +56,6 @@ Before expanding beyond these boundaries, the CPO should obtain confirmation fro
 **Decision owner:** Harbor CPO  
 **Operating owner:** People Operations lead  
 **Record owner:** Chief of Staff to the CPO  
-**Review date:** 2026-12-18, illustrative
+**Review date:** 2026-12-18
 
-At review, the owners should summarize what was tried, what information was used, what required correction, and whether the boundaries should change. These dates and any timing described here are illustrative.
+At review, the owners should summarize what was tried, what information was used, what required correction, and whether the boundaries should change.

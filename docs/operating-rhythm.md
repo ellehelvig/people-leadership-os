@@ -1,7 +1,5 @@
 # People Leadership Team operating rhythm
 
-This is a fictional cadence for Harbor. It describes a working pattern, not a real company process. Any timing or quantities are illustrative.
-
 ## Weekly: priorities and decisions
 
 **Purpose:** Keep the People Leadership Team focused on the work that needs a decision, escalation, or cross-functional action this week.
@@ -68,4 +66,4 @@ This is a fictional cadence for Harbor. It describes a working pattern, not a re
 
 ## Working rule
 
-A meeting is not complete because discussion happened. The issue or decision record must show what was decided, who owns the next step, and when the team will check progress. All dates and quantities in this example are illustrative.
+A meeting is not complete because discussion happened. The issue or decision record must show what was decided, who owns the next step, and when the team will check progress.
