@@ -26,7 +26,7 @@ Score each from 1 (poor fit) to 5 (strong fit). Write the evidence next to the s
 1. **Strategic fit:** Does the parent program support the work of a developer-tools company?
 2. **Daily-work fit:** Can Harbor's managers and engineers use it without workarounds?
 3. **Risk and control fit:** Can it run inside the controls both companies require?
-4. **Cost to carry:** If Harbor diverges, who maintains the difference, and what does that cost each year?
+4. **Cost to carry:** If Harbor diverges, who maintains the difference, and what does that cost each year? A high cost to diverge scores high, because it favors aligning.
 5. **Reversibility:** Can Harbor change course within one cycle if the choice is wrong?
 
 ## Step 3: Read the result
@@ -40,7 +40,7 @@ Score each from 1 (poor fit) to 5 (strong fit). Write the evidence next to the s
 Two rules override the total:
 
 - A 1 or 2 on risk and control fit is a stop, whatever the total. Fix the control gap first.
-- If Harbor's approach scores 4 or higher on daily-work fit and reversibility, propose it to the parent as a pilot. That outcome is **Lead**.
+- If Harbor already has its own approach, score it on daily-work fit and reversibility too. If it scores 4 or higher on both, propose it to the parent as a pilot. That outcome is **Lead**.
 
 ## Worked example: performance management cycle
 
@@ -76,4 +76,4 @@ Partly a non-negotiable. The rules on employee data are not scored. Harbor align
 
 **Total:** 16 out of 25. **Outcome: Stop, then Adapt.**
 
-The total says adapt, but the 2 on risk and control fit overrides it. Nothing expands until a named owner confirms what the parent policy covers. After that, adopt the policy and add Harbor examples.
+The total says adapt, but the 2 on risk and control fit overrides it. Nothing expands until a named owner confirms what the parent policy covers. After that, adapt: take the parent policy as written and add Harbor examples.
