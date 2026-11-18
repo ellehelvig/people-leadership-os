@@ -31,6 +31,20 @@ flowchart LR
 4. The Chief of Staff edits the draft before it goes to the CPO.
 5. Decisions that are material or hard to reverse get a decision record.
 
+## Checks on every brief
+
+The brief is only useful if the CPO can trust it. A [GitHub Action](.github/workflows/brief-check.yml) checks the latest brief against the live issues and writes the result to the run summary. It runs when a brief changes, when an issue is opened, edited, closed or reopened, and every Monday morning before the leadership meeting.
+
+It checks three rules from [copilot-instructions.md](.github/copilot-instructions.md):
+
+- Every line in the brief cites an issue.
+- Every cited issue still exists and is open. A closed issue means the line is stale.
+- Every open issue with no owner is named in the owner-gap note.
+
+It also lists open issues the brief leaves out, as a prompt rather than a failure. It cannot tell whether a line is a fair reading of its issue. The Chief of Staff still does that.
+
+To run it yourself: `python scripts/check_brief.py --issues-json tests/fixtures/issues-2026-w46.json`. The tests are in [tests/](tests/) and use only the Python standard library.
+
 ## What is in here
 
 | Path | What it is |
@@ -40,6 +54,7 @@ flowchart LR
 | [docs/operating-rhythm.md](docs/operating-rhythm.md) | Weekly, monthly, and quarterly cadence, with who decides what |
 | [docs/align-or-diverge.md](docs/align-or-diverge.md) | Five tests for when a subsidiary adopts the parent company's People programs |
 | [decisions/0001-ai-enabled-people-operating-model.md](decisions/0001-ai-enabled-people-operating-model.md) | A sample decision record |
+| [scripts/check_brief.py](scripts/check_brief.py) | The brief check, with [tests](tests/) and a saved snapshot of the issues |
 
 ## What this does not do
 
@@ -51,7 +66,7 @@ flowchart LR
 
 - **Elle Helvig** chose the problem, directed the work, supplied the reference reading behind the framework, and approves what is published here.
 - **GitHub Copilot** drafted the first version of each document and both issue forms, and wrote the weekly brief from the open issues in this repository.
-- **Claude** helped shape the concept, ran checks on the files, created the issues and board from Copilot's sample data, and drafted the edits to the brief, the align-or-diverge framework, and the decision record.
+- **Claude** helped shape the concept, ran checks on the files, created the issues and board from Copilot's sample data, and drafted the edits to the brief, the align-or-diverge framework, and the decision record. Claude also wrote the brief check and its tests.
 
 ## Author
 

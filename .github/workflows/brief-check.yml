@@ -1,0 +1,42 @@
+name: Brief check
+
+# Checks the latest weekly brief against the live open issues.
+# Runs when a brief changes, when an issue changes (a closed issue can make the
+# brief stale), every Monday before the leadership meeting, and on demand.
+# Read-only: it reports in the job summary and never edits issues or briefs.
+
+on:
+  pull_request:
+    paths:
+      - "briefs/**"
+      - "scripts/check_brief.py"
+      - "tests/**"
+      - ".github/workflows/brief-check.yml"
+  push:
+    branches: [main]
+    paths:
+      - "briefs/**"
+  issues:
+    types: [opened, edited, closed, reopened]
+  schedule:
+    - cron: "0 14 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test the checker
+        run: python -m unittest discover -s tests -v
+      - name: Check the latest brief against open issues
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/check_brief.py
