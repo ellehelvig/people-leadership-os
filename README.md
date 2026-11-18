@@ -1,5 +1,12 @@
 # People Leadership OS
 
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="assets/plos-mobile-dark.svg">
+  <source media="(max-width: 600px)" srcset="assets/plos-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/plos-dark.svg">
+  <img alt="People Leadership OS. How a Chief of Staff runs the Office of the CPO on GitHub: issues, a weekly brief, and decision records." src="assets/plos-light.svg" width="100%">
+</picture>
+
 A working example of how a Chief of Staff could run the Office of the Chief People Officer (CPO) on GitHub. Issues are the intake, a project board is the priority view, decision records are the memory, and Copilot drafts the weekly brief from the open issues for a person to review.
 
 I'm Elle Helvig, an HR and talent strategist focused on workforce AI transformation. Over the past 10+ years, I've partnered with business and HR leaders to design scalable programs, modernize talent and performance practices, lead complex change initiatives, and strengthen workforce capability. I built this to show how I'd run the Office of the CPO as Chief of Staff, with Copilot drafting and a person making the call.
