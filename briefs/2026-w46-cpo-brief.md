@@ -1,6 +1,6 @@
 # CPO weekly brief: 2026-W46
 
-Drafted by Copilot from the twelve open issues, then edited by the Chief of Staff. The commit history shows what changed.
+Drafted by Copilot from the twelve open issues, then edited by the Chief of Staff. The [commit history](https://github.com/ellehelvig/people-leadership-os/commits/main/briefs/2026-w46-cpo-brief.md) shows what changed.
 
 **Bottom line:** Two decisions need you this week. Both unblock other work. Six issues do not need your time.
 
@@ -18,14 +18,14 @@ Drafted by Copilot from the twelve open issues, then edited by the Chief of Staf
 
 ### Noise for now
 
-- Manager workload concern. One comment in one meeting, no examples. Ask for examples before it changes any plan. [#12]
+- Manager workload concern. Raised once in a team discussion, with no examples. Ask for examples before it changes any plan. [#12]
 - Requests arriving through several channels. Low confidence, no volume data. Worth a look later, not this week. [#3]
-- Possible change in hiring priorities. Secondhand, with no revised plan attached. The Talent lead is confirming whether one exists. [#7]
+- Possible change in hiring priorities. Secondhand, with no revised plan attached. Next step is for the Talent lead to confirm whether one exists. [#7]
 
 ## Risks moving
 
 - If #4 slips another week, manager guidance slips with it and the questions in #2 get louder. [#4] [#2]
-- AI use continues while the owner seat is empty. Each week without an owner makes the eventual rules harder to land. [#5]
+- Questions about AI tools keep arriving with no one to answer them. Each week without an owner makes the eventual rules harder to land. [#5]
 
 ## Cross-functional asks
 

@@ -10,15 +10,15 @@
 
 1. Approve three zones for AI in People work, set out below.
 2. Name one owner for AI questions in the People team. Issue #5 shows there is none.
-3. Agree that existing AI use is registered without penalty for two weeks, then the zones apply.
+3. Agree that any AI use already under way is registered without penalty for two weeks, then the zones apply.
 
 ## Context
 
-People team members are already trying AI for drafting and summarizing. No one has confirmed which tools are approved for which information, and no one owns the questions. The risk today is not that the team moves too slowly. It is that nobody can say what is already happening.
+The People team wants to use AI to draft non-sensitive materials (#1). No one has confirmed which tools are approved for which information, and no one owns the questions (#5). Nothing in either issue shows an unapproved tool in use. The risk today is not that the team moves too slowly. It is that nobody can say what is allowed.
 
 ## Options considered
 
-**A. Let each team choose its own tools and uses.** Fast, and it matches what is happening now. No one can answer for the result.
+**A. Let each team choose its own tools and uses.** Fast, and the least work up front. No one can answer for the result.
 
 **B. Pause everything until a full policy exists.** Clean, and it will not hold. People keep using the tools and stop mentioning it.
 
@@ -46,7 +46,7 @@ If any answer is "we don't know," the use waits.
 
 ## Trade-offs I am accepting
 
-- **Speed.** Teams that are already experimenting will feel slowed down. The two-week registration window is there so they come forward.
+- **Speed.** Anyone already experimenting will feel slowed down. The two-week registration window is there so they come forward.
 - **Coverage.** The zones do not answer every case. Edge cases come to the owner named under decision 2, and the answers are recorded so the next team does not ask again.
 - **Parent alignment.** This moves before Meridian Group's policy is confirmed for People use cases. The data rules follow the parent now. The rest is revisited once the parent confirms (see [align-or-diverge](../docs/align-or-diverge.md)).
 
@@ -65,7 +65,7 @@ At each checkpoint the owner brings one page and one question.
 - The parent confirms its policy covers People use cases. Then adopt it and keep the zones as Harbor's examples.
 - Registered uses show reviewers correcting most outputs. Then the Human with AI zone is costing more than it saves and should shrink.
 - An employee or control owner raises a concern about a specific use. That use stops until it is resolved.
-- Few uses are registered after two weeks. Then the problem is trust, not policy, and the CPO needs to address it directly.
+- Few uses are registered after two weeks, but questions about AI tools keep coming. Then the problem is trust, not policy, and the CPO needs to address it directly.
 
 ## Owners
 

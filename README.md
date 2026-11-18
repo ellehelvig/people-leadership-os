@@ -4,6 +4,8 @@ A working example of how a Chief of Staff could run the Office of the Chief Peop
 
 Harbor and Meridian Group are fictional. Harbor is a 4,000-person developer-tools subsidiary of Meridian Group. Every person, issue, date, and number here is invented.
 
+**Start here:** read the [weekly brief](briefs/2026-w46-cpo-brief.md), then open any issue it cites to check the claim against its source.
+
 ## How the weekly loop works
 
 ```mermaid
