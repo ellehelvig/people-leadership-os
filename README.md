@@ -12,6 +12,8 @@ Harbor is a fictional 4,000-person developer-tools company inside a larger paren
 
 Every line in the brief cites the issue it came from.
 
+For how I would set this up in a new role, see [the first 90 days](docs/first-90-days.md).
+
 ## How the weekly loop works
 
 ```mermaid
@@ -53,6 +55,7 @@ To run it yourself: `python scripts/check_brief.py --issues-json tests/fixtures/
 | [briefs/2026-w46-cpo-brief.md](briefs/2026-w46-cpo-brief.md) | The weekly brief: Copilot's draft from those issues, edited down to one page |
 | [docs/operating-rhythm.md](docs/operating-rhythm.md) | Weekly, monthly, and quarterly cadence, with who decides what |
 | [docs/align-or-diverge.md](docs/align-or-diverge.md) | Five tests for when a subsidiary adopts the parent company's People programs |
+| [docs/first-90-days.md](docs/first-90-days.md) | How I would spend the first 90 days as Chief of Staff to the CPO, and how we would know it was working |
 | [decisions/0001-ai-enabled-people-operating-model.md](decisions/0001-ai-enabled-people-operating-model.md) | A sample decision record |
 | [scripts/check_brief.py](scripts/check_brief.py) | The brief check, with [tests](tests/) and a saved snapshot of the issues |
 
